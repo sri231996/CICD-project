@@ -10,7 +10,6 @@ pipeline {
       steps {
         sh 'echo passed'
         //git branch: 'main', url: 'https://github.com/sri231996/CICD-project.git'
-        sh 'git pull'
       }
     }
     stage('Build and Test') {
